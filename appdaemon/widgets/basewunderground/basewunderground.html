@@ -1,0 +1,31 @@
+<div data-bind="attr: {style: main_style}">
+  <p class="primary-climacon" data-bind="html: today_icon"></p>
+	<p class="primary-info" data-bind="text: temperature"></p>
+	<p class="primary-unit" data-bind="html: unit, attr: {style: unit_style}"></p>
+</div>
+<div data-bind="attr: {style: sub_style}">
+	<p class="secondary-info">Today</p>
+	<br>
+	<p class="secondary-info" data-bind="text: today_high"></p>
+	<p class="secondary-info" data-bind="text: small_unit"></p>
+	<p class="secondary-info">/</p>
+	<p class="secondary-info" data-bind="text: today_low"></p>
+	<p class="secondary-info" data-bind="text: small_unit"></p>
+	<p class="secondary-info">&nbsp;&nbsp;</p>
+	<i data-bind="attr: {class: today_prec_icon}"></i>
+	<p class="secondary-info" data-bind="text: pws_precip_1d"></p>
+	<p class="secondary-info">%</p>
+	<br><br>
+	<p class="secondary-info">Tomorrow</p>
+	<br>
+	<p class="secondary-climacon" data-bind="html: tomorrow_icon"></p>
+	<p class="secondary-info" data-bind="text: tomorrow_high"></p>
+	<p class="secondary-info" data-bind="text: small_unit"></p>
+	<p class="secondary-info">/</p>
+	<p class="secondary-info" data-bind="text: tomorrow_low"></p>
+	<p class="secondary-info" data-bind="text: small_unit"></p>
+	<p class="secondary-info">&nbsp;&nbsp;</p>
+	<i data-bind="attr: {class: today_prec_icon}"></i>
+	<p class="secondary-info" data-bind="text: pws_precip_2d"></p>
+	<p class="secondary-info">%</p>
+</div>
