@@ -1,0 +1,32 @@
+widget_type: basewunderground
+fields:
+  unit: ""
+  small_unit: ""
+  temperature: ""
+  pws_temp_f: ""
+  pws_temp_c: ""
+  pws_precip_1d: ""
+  pws_precip_2d: ""
+  pws_weather: ""
+  pws_weather_2d: ""
+  pws_temp_high_1d_f: ""
+  pws_temp_low_1d_f: ""
+  pws_temp_high_2d_f: ""
+  pws_temp_low_2d_f: ""
+  today_icon: ""
+  tomorrow_icon: ""
+  today_prec_icon: ""
+  tomorrow_prec_icon: ""
+  today_high: ""
+  today_low: ""
+  tomorrow_high: ""
+  tomorrow_low: ""
+css: []
+static_css:
+  title_style: $wunderground_sub_style
+  unit_style: $wunderground_unit_style
+  main_style: $wunderground_main_style
+  sub_style: $wunderground_sub_style
+  widget_style: $wunderground_widget_style
+icons: []
+static_icons: []
